@@ -54,6 +54,8 @@ mongoimport --uri "mongodb://localhost:27000/test" --collection=warehouse_items 
 
 Uses a flat `[x, y]` coordinate grid. Suitable for warehouse shelf positions, game maps, or any non-geographic 2D space.
 
+![Flat Grid 2D demo](gifs/uc1-flatgrids.gif)
+
 ### Data Model
 
 ```js
@@ -111,6 +113,8 @@ db.warehouse_items.find(filter, projection)
 ## Spherical — 2dsphere
 
 Uses GeoJSON with real-world longitude/latitude coordinates. Suitable for maps, delivery zones, and location-based search.
+
+![Spherical 2dsphere demo](gifs/uc2-sphere.gif)
 
 ### Data Model
 
@@ -208,6 +212,8 @@ db.delivery_zones.find({
 ## Advanced Search — Atlas Search + Geo
 
 Combines full-text search with geospatial filtering in a single aggregation pipeline.
+
+![Advanced Search demo](gifs/uc3-advancedsearch.gif)
 
 ### Data Model
 

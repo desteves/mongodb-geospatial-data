@@ -15,8 +15,6 @@ venv/
 visuals/
 tapes/
 
-# VHS generated output
-gifs/
 
 # Recycle bin
 RECYCLE_BIN/
