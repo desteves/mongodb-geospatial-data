@@ -1,0 +1,82 @@
+[
+  {
+    "sku": "FLOUR-AP-25LB",
+    "name": "All-Purpose Flour",
+    "category": "dry-goods",
+    "quantity": 150,
+    "pos": [
+      23.5,
+      67.2
+    ]
+  },
+  {
+    "sku": "TOMATO-CRUSHED-10",
+    "name": "Crushed San Marzano Tomatoes",
+    "category": "canned-goods",
+    "quantity": 200,
+    "pos": [
+      24.1,
+      68.5
+    ]
+  },
+  {
+    "sku": "CHEESE-MOZZ-FRESH",
+    "name": "Fresh Mozzarella",
+    "category": "refrigerated",
+    "quantity": 75,
+    "pos": [
+      12.3,
+      89.1
+    ]
+  },
+  {
+    "sku": "CHILE-ANCHO-DRIED",
+    "name": "Dried Ancho Chiles",
+    "category": "dry-goods",
+    "quantity": 50,
+    "pos": {
+      "x": 25.0,
+      "y": 65.8
+    }
+  },
+  {
+    "sku": "TORTILLA-CORN-6IN",
+    "name": "Corn Tortillas 6-inch",
+    "category": "refrigerated",
+    "quantity": 300,
+    "pos": [
+      14.2,
+      87.3
+    ]
+  },
+  {
+    "sku": "QUESO-BLEND-5LB",
+    "name": "Texas Queso Cheese Blend",
+    "category": "refrigerated",
+    "quantity": 120,
+    "pos": [
+      15.8,
+      85.9
+    ]
+  },
+  {
+    "sku": "COFFEE-BEAN-ETHIOPIAN",
+    "name": "Ethiopian Single Origin Beans",
+    "category": "dry-goods",
+    "quantity": 80,
+    "pos": [
+      26.2,
+      64.5
+    ]
+  },
+  {
+    "sku": "SYRUP-VANILLA-750ML",
+    "name": "Vanilla Flavoring Syrup",
+    "category": "beverages",
+    "quantity": 45,
+    "pos": [
+      28.0,
+      66.1
+    ]
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Pinthouse Pizza",
+    "description": "Craft beer brewery and artisan pizzas with creative toppings and house-made ingredients",
+    "cuisine": "Pizza",
+    "rating": 4.7,
+    "priceRange": "$$",
+    "tags": [
+      "pizza",
+      "craft-beer",
+      "brewery",
+      "family-friendly",
+      "outdoor seating"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.73853,
+        30.29584
+      ]
+    },
+    "address": {
+      "street": "4729 Burnet Road",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78756"
+    },
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-24:00",
+      "saturday": "11:00-24:00",
+      "sunday": "11:00-21:00"
+    }
+  },
+  {
+    "name": "Clay Pit",
+    "description": "Upscale Indian cuisine featuring tandoori specialties and regional curries in a historic building",
+    "cuisine": "Indian",
+    "rating": 4.5,
+    "priceRange": "$$$",
+    "tags": [
+      "indian",
+      "tandoori",
+      "curry",
+      "fine-dining",
+      "historic",
+      "vegetarian-options"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.74213,
+        30.27015
+      ]
+    },
+    "address": {
+      "street": "1601 Guadalupe Street",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "hours": {
+      "monday": "11:00-14:30, 17:00-22:00",
+      "tuesday": "11:00-14:30, 17:00-22:00",
+      "wednesday": "11:00-14:30, 17:00-22:00",
+      "thursday": "11:00-14:30, 17:00-22:00",
+      "friday": "11:00-14:30, 17:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-21:00"
+    }
+  },
+  {
+    "name": "Torchy's Tacos",
+    "description": "Damn good tacos with creative recipes and signature queso, born in Austin",
+    "cuisine": "Tex-Mex",
+    "rating": 4.4,
+    "priceRange": "$",
+    "tags": [
+      "tacos",
+      "tex-mex",
+      "queso",
+      "breakfast-tacos",
+      "casual",
+      "local-favorite"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.74482,
+        30.26573
+      ]
+    },
+    "address": {
+      "street": "801 Congress Avenue",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "hours": {
+      "monday": "07:00-22:00",
+      "tuesday": "07:00-22:00",
+      "wednesday": "07:00-22:00",
+      "thursday": "07:00-22:00",
+      "friday": "07:00-23:00",
+      "saturday": "07:00-23:00",
+      "sunday": "07:00-22:00"
+    }
+  },
+  {
+    "name": "Ramen Tatsu-Ya",
+    "description": "Authentic Japanese ramen with rich tonkotsu broth and handmade noodles",
+    "cuisine": "Japanese",
+    "rating": 4.8,
+    "priceRange": "$$",
+    "tags": [
+      "ramen",
+      "japanese",
+      "noodles",
+      "late-night",
+      "umami"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.72318,
+        30.29652
+      ]
+    },
+    "address": {
+      "street": "8557 Research Boulevard",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78758"
+    },
+    "hours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-23:00",
+      "saturday": "11:00-23:00",
+      "sunday": "11:00-22:00"
+    }
+  },
+  {
+    "name": "Texas Chili Parlor",
+    "description": "Legendary Austin dive bar serving award-winning chili and cold beer since 1976",
+    "cuisine": "American",
+    "rating": 4.3,
+    "priceRange": "$",
+    "tags": [
+      "chili",
+      "dive-bar",
+      "historic",
+      "beer",
+      "casual",
+      "austin-legend"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.74089,
+        30.27253
+      ]
+    },
+    "address": {
+      "street": "1409 Lavaca Street",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "hours": {
+      "monday": "11:00-02:00",
+      "tuesday": "11:00-02:00",
+      "wednesday": "11:00-02:00",
+      "thursday": "11:00-02:00",
+      "friday": "11:00-02:00",
+      "saturday": "11:00-02:00",
+      "sunday": "12:00-24:00"
+    }
+  },
+  {
+    "name": "Home Slice Pizza",
+    "description": "New York-style pizza by the slice with a funky Austin vibe",
+    "cuisine": "Pizza",
+    "rating": 4.6,
+    "priceRange": "$",
+    "tags": [
+      "pizza",
+      "new-york-style",
+      "late-night",
+      "casual",
+      "local-favorite"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.72427,
+        30.31865
+      ]
+    },
+    "address": {
+      "street": "501 East 53rd Street",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78751"
+    },
+    "hours": {
+      "monday": "11:00-23:00",
+      "tuesday": "11:00-23:00",
+      "wednesday": "11:00-23:00",
+      "thursday": "11:00-23:00",
+      "friday": "11:00-24:00",
+      "saturday": "11:00-24:00",
+      "sunday": "11:00-23:00"
+    }
+  },
+  {
+    "name": "Voodoo Doughnut",
+    "description": "Iconic doughnut shop with wild creations and a keep Austin weird attitude",
+    "cuisine": "Dessert",
+    "rating": 4.2,
+    "priceRange": "$",
+    "tags": [
+      "doughnuts",
+      "dessert",
+      "late-night",
+      "quirky",
+      "instagram-worthy"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.73941,
+        30.26724
+      ]
+    },
+    "address": {
+      "street": "212 East 6th Street",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "hours": {
+      "monday": "00:00-23:59",
+      "tuesday": "00:00-23:59",
+      "wednesday": "00:00-23:59",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-23:59",
+      "saturday": "00:00-23:59",
+      "sunday": "00:00-23:59"
+    }
+  },
+  {
+    "name": "Amy's Ice Creams",
+    "description": "Beloved Austin original with handcrafted ice cream and famous crush'n toppings",
+    "cuisine": "Dessert",
+    "rating": 4.7,
+    "priceRange": "$",
+    "tags": [
+      "ice-cream",
+      "dessert",
+      "local-favorite",
+      "handcrafted",
+      "family-friendly"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.74235,
+        30.26789
+      ]
+    },
+    "address": {
+      "street": "1012 West 6th Street",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78703"
+    },
+    "hours": {
+      "monday": "11:30-23:00",
+      "tuesday": "11:30-23:00",
+      "wednesday": "11:30-23:00",
+      "thursday": "11:30-23:00",
+      "friday": "11:30-24:00",
+      "saturday": "11:30-24:00",
+      "sunday": "11:30-23:00"
+    }
+  },
+  {
+    "name": "Mozart's Coffee Roasters",
+    "description": "Lakeside coffee house with stunning views, fresh-roasted beans, and decadent desserts",
+    "cuisine": "Coffee",
+    "rating": 4.6,
+    "priceRange": "$$",
+    "tags": [
+      "coffee",
+      "lakeside",
+      "dessert",
+      "wifi",
+      "scenic",
+      "outdoor seating",
+      "pastries"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.78523,
+        30.29684
+      ]
+    },
+    "address": {
+      "street": "3825 Lake Austin Boulevard",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78703"
+    },
+    "hours": {
+      "monday": "07:00-23:00",
+      "tuesday": "07:00-23:00",
+      "wednesday": "07:00-23:00",
+      "thursday": "07:00-23:00",
+      "friday": "07:00-24:00",
+      "saturday": "07:00-24:00",
+      "sunday": "07:00-23:00"
+    }
+  },
+  {
+    "name": "Epoch Coffee",
+    "description": "24-hour neighborhood coffee shop with a bohemian vibe and strong local following",
+    "cuisine": "Coffee",
+    "rating": 4.5,
+    "priceRange": "$",
+    "tags": [
+      "coffee",
+      "24-hours",
+      "wifi",
+      "late-night",
+      "bohemian",
+      "local-favorite",
+      "study-spot"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.72294,
+        30.31892
+      ]
+    },
+    "address": {
+      "street": "221 West North Loop Boulevard",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78751"
+    },
+    "hours": {
+      "monday": "00:00-23:59",
+      "tuesday": "00:00-23:59",
+      "wednesday": "00:00-23:59",
+      "thursday": "00:00-23:59",
+      "friday": "00:00-23:59",
+      "saturday": "00:00-23:59",
+      "sunday": "00:00-23:59"
+    }
+  },
+  {
+    "name": "Flightpath Coffeehouse",
+    "description": "Cozy Hyde Park coffee spot with vintage airport decor, local art, and community vibes",
+    "cuisine": "Coffee",
+    "rating": 4.4,
+    "priceRange": "$",
+    "tags": [
+      "coffee",
+      "wifi",
+      "vintage",
+      "local-art",
+      "community",
+      "hyde-park",
+      "breakfast"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.72658,
+        30.30472
+      ]
+    },
+    "address": {
+      "street": "5013 Duval Street",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78751"
+    },
+    "hours": {
+      "monday": "06:30-22:00",
+      "tuesday": "06:30-22:00",
+      "wednesday": "06:30-22:00",
+      "thursday": "06:30-22:00",
+      "friday": "06:30-23:00",
+      "saturday": "07:00-23:00",
+      "sunday": "07:00-22:00"
+    }
+  }
+]

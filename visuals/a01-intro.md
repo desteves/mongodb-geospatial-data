@@ -1,0 +1,18 @@
+# Jumpstart: Geospatial Data with MongoDB
+  ```js
+  ┌─────────────────┬─────────────────┬─────────────────┐
+  │   FLAT GRIDS    │    SPHERICAL    │  ADV. SEARCH    │
+  │                 │                 │                 │
+  │       ⊞         │       🌐        │       🔍        │
+  │                 │                 │                 │
+  │   2d index      │  2dsphere index │   geo type      │
+  │                 │                 │                 │
+  │                 │                 │                 │
+  │   $near         │  $nearSphere    │   geoShape      │
+  │   $geoWithin    │  $geoWithin     │   geoWithin     │
+  │                 │  $geoIntersects │                 │
+  │                 │                 │                 │
+  │                 │                 │                 │
+  │  Your units     │    Meters       │    Meters       │
+  └─────────────────┴─────────────────┴─────────────────┘
+  ```

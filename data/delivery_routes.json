@@ -1,0 +1,110 @@
+[
+  {
+    "driverId": "DRV-ATX-1042",
+    "status": "active",
+    "orderId": "ORD-78751-001",
+    "restaurant": "Epoch Coffee",
+    "route": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.72294,
+          30.31892
+        ],
+        [
+          -97.7245,
+          30.315
+        ],
+        [
+          -97.726,
+          30.31
+        ],
+        [
+          -97.7275,
+          30.3055
+        ]
+      ]
+    }
+  },
+  {
+    "driverId": "DRV-ATX-2187",
+    "status": "active",
+    "orderId": "ORD-78756-002",
+    "restaurant": "Clay Pit",
+    "route": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.74213,
+          30.27015
+        ],
+        [
+          -97.74,
+          30.28
+        ],
+        [
+          -97.738,
+          30.29
+        ],
+        [
+          -97.73853,
+          30.29584
+        ]
+      ]
+    }
+  },
+  {
+    "driverId": "DRV-ATX-3391",
+    "status": "active",
+    "orderId": "ORD-78703-003",
+    "restaurant": "Mozart's Coffee Roasters",
+    "route": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.78523,
+          30.29684
+        ],
+        [
+          -97.77,
+          30.29
+        ],
+        [
+          -97.755,
+          30.28
+        ],
+        [
+          -97.74235,
+          30.26789
+        ]
+      ]
+    }
+  },
+  {
+    "driverId": "DRV-ATX-4456",
+    "status": "active",
+    "orderId": "ORD-78701-004",
+    "restaurant": "Torchy's Tacos",
+    "route": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          -97.74482,
+          30.26573
+        ],
+        [
+          -97.742,
+          30.267
+        ],
+        [
+          -97.74,
+          30.2685
+        ],
+        [
+          -97.73941,
+          30.26724
+        ]
+      ]
+    }
+  }
+]
