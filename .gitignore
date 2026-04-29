@@ -11,8 +11,12 @@ __pycache__/
 .venv/
 venv/
 
-# VHS generated output
-gifs/
+# VHS inputs
+visuals/
+tapes/
+
+# Recycle bin
+RECYCLE_BIN/
 
 # Editor
 .vscode/
