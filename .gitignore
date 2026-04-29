@@ -1,0 +1,19 @@
+# SSH keys
+.ssh/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# VHS generated output
+gifs/
+
+# Editor
+.vscode/
+.idea/
