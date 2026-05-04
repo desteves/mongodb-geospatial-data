@@ -32,29 +32,13 @@ mongoimport --uri "mongodb://localhost:27000/test" --collection=warehouse_items 
 
 ## Use Cases
 
-```text
-┌─────────────────┬─────────────────┬─────────────────┐
-│   FLAT GRIDS    │    SPHERICAL    │  ADV. SEARCH    │
-│                 │                 │                 │
-│       ⊞         │       🌐        │       🔍        │
-│                 │                 │                 │
-│   2d index      │  2dsphere index │   geo type      │
-│                 │                 │                 │
-│                 │                 │                 │
-│   $near         │  $nearSphere    │   geoShape      │
-│   $geoWithin    │  $geoWithin     │   geoWithin     │
-│                 │  $geoIntersects │                 │
-│                 │                 │                 │
-│                 │                 │                 │
-│  Your units     │    Meters       │    Meters       │
-└─────────────────┴─────────────────┴─────────────────┘
-```
+![Overview of all use cases](gifs/intro.gif)
 
 ## Flat Grid — 2D
 
 Uses a flat `[x, y]` coordinate grid. Suitable for warehouse shelf positions, game maps, or any non-geographic 2D space.
 
-![Flat Grid 2D demo](gifs/uc1-flatgrids.gif)
+![Flat Grid 2D demo](gifs/uc1.gif)
 
 ### Data Model
 
@@ -114,9 +98,11 @@ db.warehouse_items.find(filter, projection)
 
 Uses GeoJSON with real-world longitude/latitude coordinates. Suitable for maps, delivery zones, and location-based search.
 
-![Spherical 2dsphere demo](gifs/uc2-sphere.gif)
+![Spherical 2dsphere demo](gifs/uc2.gif)
 
 ### Data Model
+
+![Sample data for 2dsphere use case](assets/2dsphere_data.png)
 
 ```js
 /*
@@ -213,7 +199,7 @@ db.delivery_zones.find({
 
 Combines full-text search with geospatial filtering in a single aggregation pipeline.
 
-![Advanced Search demo](gifs/uc3-advancedsearch.gif)
+![Advanced Search demo](gifs/uc3.gif)
 
 ### Data Model
 
